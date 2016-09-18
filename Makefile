@@ -2,4 +2,4 @@ all: run
 
 run:
 	@echo "*** starting a simple HTTP webserver"
-	@python -m SimpleHTTPServer 8080
+	@(cd src; python -m SimpleHTTPServer 8080)
